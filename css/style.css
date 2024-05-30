@@ -54,17 +54,25 @@ header li {
     cursor: pointer;
 }
 
+h2 {
+    font-size: 36px;
+}
+
 
 
 /* HEADER-------------------------------------------------------- */
 
-.container-bg.height-fixed.p-40 {
+.container-bg {
     background-color: #b4d0e7;
-    height: 550px;
-    padding: 40px
 }
 
+.h-550 {
+    height: 550px;
+}
 
+.p-40 {
+    padding: 40px;
+}
 
 .container-top {
     max-width: 1200px;
@@ -227,6 +235,9 @@ li i {
 
 /* 4th CONTAINER------------------------------------- */
 
+.align-baseline {
+    align-items: baseline;
+}
 
 .content-gallery img {
     width: 100%;
@@ -237,3 +248,10 @@ li i {
 }
 
 /* 5th CONTAINER---------------------------------- */
+
+.container-full {
+    border: 1px solid red;
+    width: 100vw;
+    height: 600px;
+    overflow: auto;
+}
