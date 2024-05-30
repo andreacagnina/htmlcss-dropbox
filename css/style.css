@@ -89,10 +89,6 @@ h1 {
     padding: 20px 0;
 }
 
-.content-relative :last-child {
-    padding-top: 40px;
-}
-
 /* 1ST CONTAINER----------------------------------------------------------- */
 
 .container-main {
@@ -105,13 +101,19 @@ h1 {
     flex-wrap: wrap;
 }
 
-.col {
+.col-33 {
     width: calc(100%/3);
 }
 
-.content-large.border.m-r-30 {
-    border: 1px solid #d2d2d5;
+.content-large {
     height: 1000px;
+}
+
+.border {
+    border: 1px solid #d2d2d5;
+}
+
+.m-r-30 {
     margin: 0 30px 0 0;
 }
 
@@ -128,11 +130,12 @@ h1 {
     padding: 10px;
 }
 
-.card {
+.card-33,
+.card-100 {
     padding: 25px;
 }
 
-.card h3,
+.card-33 h3,
 h4,
 p,
 button,
@@ -140,16 +143,16 @@ ul {
     margin: 10px 0;
 }
 
-.card p,
+.card-33 p,
 li {
     padding: 10px 0;
 }
 
-.card>p:first-of-type {
+.card-33>p:first-of-type {
     color: #d2d2d5;
 }
 
-.card>button {
+.card-33>button {
     width: 100%;
     margin: 30px 0;
 }
@@ -160,4 +163,29 @@ hr {
 
 .p-t-b-30 {
     padding: 30px 0;
+}
+
+li i {
+    margin-right: 10px;
+}
+
+
+
+/* 2nd CONTAINER----------------------------------------------------- */
+
+.col-100 {
+    width: 100%;
+}
+
+.content-100 {
+    border: 1px solid #d2d2d5;
+    margin-top: 50px;
+}
+
+.card-100>h4 {
+    padding-bottom: 50px;
+}
+
+.card-100 .btn.clr-p {
+    padding: 10px 50px;
 }
