@@ -44,7 +44,7 @@ header li {
     margin: 0 15px;
 }
 
-.btn.clr-p {
+.btn.clr-p-10-15 {
     background-color: #0061ff;
     color: white;
     padding: 10px 15px;
@@ -70,7 +70,7 @@ header li {
 }
 
 .img-jumbo {
-    width: 60%;
+    width: 62%;
     position: absolute;
     top: 0;
     left: 30%;
@@ -189,3 +189,38 @@ li i {
 .card-100 .btn.clr-p {
     padding: 10px 50px;
 }
+
+/* 3th CONTAINER------------------------------------------------- */
+
+
+.m-150-0 {
+    margin: 150px 0;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.content-60>img {
+    width: 100%;
+}
+
+.content-40 {
+    margin: 60px;
+}
+
+.content-40>p {
+    margin: 30px 0;
+}
+
+.btn.bord.p-10-15 {
+    border: 1px solid black;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+/* 4th CONTAINER------------------------------------- */
