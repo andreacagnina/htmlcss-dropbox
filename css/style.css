@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    height: 50px;
-    background-color: aqua;
+    height: 70px;
+    padding: 20px;
 }
 
 .flex {
@@ -20,6 +20,18 @@ header {
 
 .s-btw {
     justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -32,16 +44,51 @@ header li {
     margin: 0 15px;
 }
 
-.btn-clr-p {
+.btn.clr-p {
     background-color: #0061ff;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
-a {
-    text-decoration: none;
+.btn:hover {
+    cursor: pointer;
 }
 
-.align-center {
-    align-items: center;
+
+
+/* HEADER-------------------------------------------------------- */
+
+.container-bg.height-fixed.p-40 {
+    background-color: #b4d0e7;
+    height: 550px;
+    padding: 40px
+}
+
+.container-top {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-jumbo {
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.content-relative.m-t-40 {
+    position: relative;
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.content-relative>p {
+    padding: 20px 0;
+}
+
+.content-relative :last-child {
+    padding-top: 40px;
 }
