@@ -9,6 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
+
 header {
     height: 70px;
     padding: 20px;
@@ -56,17 +58,11 @@ header li {
     padding: 10px 15px;
 }
 
-.btn:hover {
-    cursor: pointer;
-}
-
 h2 {
     font-size: 36px;
 }
 
-
-
-/* HEADER-------------------------------------------------------- */
+/* <!-- 1st SECTION --> */
 
 .container-bg-cel {
     background-color: #b4d0e7;
@@ -110,8 +106,7 @@ h1 {
     max-width: 100%;
 }
 
-
-/* 1ST CONTAINER----------------------------------------------------------- */
+/* <!-- 2ND SECTION --> */
 
 .container-1000 {
     max-width: 1000px;
@@ -189,9 +184,8 @@ i {
     margin-right: 10px;
 }
 
+/* <!-- 3RD SECTION --> */
 
-
-/* 2nd CONTAINER----------------------------------------------------- */
 .text-right {
     text-align: right;
 }
@@ -204,8 +198,7 @@ i {
     padding: 10px 50px;
 }
 
-/* 3th CONTAINER------------------------------------------------- */
-
+/* <!-- 4TH SECTION --> */
 
 .m-100-0 {
     margin: 100px 0;
@@ -255,14 +248,14 @@ i {
     padding: 30px 0;
 }
 
-/* 4th CONTAINER------------------------------------- */
+/* <!-- 5TH SECTION --> */
 
 
 .container-max-500 {
     max-width: 500px;
 }
 
-/* 5th CONTAINER---------------------------------- */
+/* <!-- 6TH SECTION --> */
 
 .container-full {
     width: 100vw;
@@ -346,7 +339,7 @@ address {
 }
 
 
-/* 6th CONTAINER---------------------------------- */
+/* <!-- 7TH SECTION --> */
 
 .max-w-500 {
     max-width: 500px;
@@ -368,7 +361,7 @@ address {
     padding: 10px 80px;
 }
 
-/* 7th CONTAINER--------------------------------------------- */
+/* <!-- 8TH SECTION --> */
 
 .p-t-150-b-50 {
     padding: 150px 0 50px 0;
@@ -383,4 +376,4 @@ address {
     border-bottom: 1px solid #c2c2c2;
 }
 
-/* 8TH CONTAINER----------------- */
+/* <!-- FOOTER --> */
