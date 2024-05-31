@@ -74,7 +74,7 @@ h2 {
     padding: 40px;
 }
 
-.container-top {
+.container-1200 {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -227,10 +227,14 @@ li i {
     margin: 30px 0;
 }
 
-.btn.bord.p-10-15 {
-    border: 1px solid black;
+.btn.p-10-15 {
     padding: 10px 15px;
     background-color: white;
+}
+
+.bord {
+    border: 1px solid black;
+
 }
 
 /* 4th CONTAINER------------------------------------- */
@@ -264,6 +268,7 @@ li i {
     overflow-y: auto;
 }
 
+
 .bg-lgray {
     background-color: #f5f5f5;
 }
@@ -290,7 +295,7 @@ address {
 
 .content-little-square>img {
     width: 50%;
-    margin: 0 auto;
+    filter: invert(1);
 }
 
 .bg-green {
@@ -325,4 +330,29 @@ address {
     background-color: #b4d0e7;
 }
 
+.just-c {
+    justify-content: center;
+}
+
+
 /* 6th CONTAINER---------------------------------- */
+
+
+.container-bg.p-100-250 h2 {
+    color: #61082b;
+    max-width: 500px;
+}
+
+.p-100-250 {
+    padding: 100px 250px;
+}
+
+.border-none {
+    border: none;
+}
+
+.p-10-80 {
+    padding: 10px 80px;
+}
+
+/* 7th CONTAINER--------------------------------------------- */
