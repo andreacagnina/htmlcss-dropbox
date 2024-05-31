@@ -189,13 +189,12 @@ li i {
 
 
 /* 2nd CONTAINER----------------------------------------------------- */
-
-.col-100 {
-    width: 100%;
+.text-right {
+    text-align: right;
 }
 
-.max-w-550 {
-    max-width: 550px;
+.p-20 {
+    padding: 20px
 }
 
 .p-10-50 {
