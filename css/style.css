@@ -485,3 +485,22 @@ ul li ul li:hover {
 .pos-rel {
     position: relative;
 }
+
+/* BONUS RESIZE ARROW  */
+
+.resize {
+    cursor: pointer;
+}
+
+i.resize:hover {
+    font-size: 5em;
+    color: white;
+}
+
+a:hover+h3 {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
